@@ -2,6 +2,19 @@ import type { iSVG } from "@/types/svg";
 
 export const svgs: iSVG[] = [
   {
+    title: "Retain",
+    category: ["Analytics", "Software"],
+    route: {
+      light: "/library/retain-light.svg",
+      dark: "/library/retain-dark.svg",
+    },
+    wordmark: {
+      light: "/library/retain-wordmark-light.svg",
+      dark: "/library/retain-wordmark-dark.svg",
+    },
+    url: "https://retain.so/",
+  },
+  {
     title: 'Ossium',
     category: 'Software',
     route: '/library/ossium_logo.svg',
